@@ -1,7 +1,7 @@
 .nav-bar {
     background: #212121;
-    width: 100%;
-    height: 4px;
+    width: 256px;
+    height: 100%;
     position: absolute;
     top: 0;
     z-index: 3;
@@ -12,14 +12,13 @@
         padding: 8px 0;
 
         img {
-            display: flex;
-            align-items: right;
+            display: block;
             margin: 8px auto;
-            width: 10%;
-            height: auto;
+            width: 100%;
+            height: 100%;
 
             &.sub-logo {
-                width: 10%;
+                width: 256px;
             }
         }
     }
